@@ -47,8 +47,8 @@ else:
         DL_est = int(PCLK / (16 * BR * FR_est))
         for i in range(0,range_val+1):
             if(FR_est>=FR_LUT[i] and FR_est<=FR_LUT[i+1]):
-                DIVADDVAL = DIVADDVAL_LUT[i];
-                MULVAL    = MULVAL_LUT[i];
+                DIVADDVAL = DIVADDVAL_LUT[i]
+                MULVAL    = MULVAL_LUT[i]
                 break;
         print("DIVADDVAL:",DIVADDVAL)
         print("MULVAL   :",MULVAL)
